@@ -1,0 +1,15 @@
+create table if not exists base_transfer_object(
+workflow_code integer not null,
+workflow_type varchar(255) null,
+ref_id varchar(255) null,
+screen_id varchar(255) null,
+cr_id integer null,
+cr_type_code integer null,
+user_id integer null,
+key_atttr varchar(255) null,
+cr_desc varchar(255) null,
+ket_attr_value varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint base_transfer_object_pk primary key(workflow_code));

@@ -1,0 +1,16 @@
+create table if not exists global_bank_structure(
+record_key integer not null,
+bank_country_code integer null,
+bank_country_code_position varchar(255) null,
+bank_country_code_length varchar(255) null,
+bank_check_digits_position varchar(255) null,
+bank_check_digits_length varchar(255) null,
+bank_identifier_position char null,
+bank_identifier_length varchar(255) null,
+branch_identifier_position varchar(255) null,
+branch_identifier_length varchar(255) null,
+bank_national_id_length varchar(255) null,
+account_number_position varchar(255) null,
+account_number_length varchar(255) null,
+bank_total_length varchar(255) null,
+constraint global_bank_structure_pk primary key(record_key));

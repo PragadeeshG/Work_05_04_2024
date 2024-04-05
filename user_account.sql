@@ -1,0 +1,15 @@
+create table if not exists user_account(
+account_owner integer not null,
+account_name varchar(255) null,
+first_name  varchar(255) null,
+last_name varchar(255) null,
+email_address varchar(255) null,
+locale integer null,
+country_code varchar(255) null,
+is_privileged varchar(255) null,
+last_login varchar(255) null,
+contact_id integer null,
+address_id varchar(255) null,
+user_grp varchar(255) null,
+request_type  varchar(255) null,
+constraint user_account_pk primary key(account_owner));

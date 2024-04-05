@@ -1,0 +1,15 @@
+create table if not exists account_response(
+account_id integer not null,
+account_owner varchar(255) null,
+active_account char null,
+account_type_id integer null,
+account_type varchar(255) null,
+account_status varchar(255) null,
+account_description integer null,
+user_groups_count integer null,
+user_countries varchar(255) null,
+user_countries_count integer null,
+user_groups varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint account_response_pk primary key(account_id));
